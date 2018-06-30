@@ -58,8 +58,10 @@ public class LoginFragment extends BaseFragment<FragmentLoginBinding, LoginViewM
     @Override
     public void onViewCreated(View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        m_preferencesHelper.setUserEmail("hai01@gmail.com");
-        m_preferencesHelper.setUserPassword("123456");
+        if(m_preferencesHelper.getUserEmail().isEmpty() && m_preferencesHelper.getUserPassword().isEmpty()){
+            m_preferencesHelper.setUserEmail("hai01@gmail.com");
+            m_preferencesHelper.setUserPassword("123456");
+        }
     }
 
     @OnClick(R.id.btn_login)

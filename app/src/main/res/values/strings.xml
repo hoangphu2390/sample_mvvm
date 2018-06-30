@@ -1,0 +1,57 @@
+<resources>
+
+    <!--KEY THIRD PARTY-->
+    <string name="facebook_appid">129770454453740</string>
+    <!--KEY MODE TEST STRIPE -->
+    <!--<string name="com.stripe.publishable_key" translatable="false">pk_test_HjLQMvp6u40kUh0kDKzKE8lH</string>-->
+    <!--KEY MODE LIVE STRIPE -->
+    <string name="com.stripe.publishable_key" translatable="false">pk_live_ri2smj1o9VDm2eHKHv04BDJZ</string>
+
+
+    <!--GENERAL APP-->
+    <string name="app_name">"BaseMVVM"</string>
+    <string name="setting">Settings</string>
+    <string name="cancel">Cancel</string>
+    <string name="search">Search</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="accept">Accept</string>
+    <string name="appprove">Approve</string>
+    <string name="payment">Payment</string>
+    <string name="submit">Submit</string>
+    <string name="next">Next</string>
+    <string name="close">Close</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="phone">Phone</string>
+    <string name="address">Address</string>
+    <string name="price">Price</string>
+    <string name="amount">Amount</string>
+    <string name="minutes">Minutes</string>
+    <string name="minutes_lowercase">minutes</string>
+    <string name="min_minutes">Minimum Minutes</string>
+    <string name="minimum_times">Minimum Times:</string>
+    <string name="notification">NOTIFICATION</string>
+    <string name="update">Update</string>
+    <string name="feature_is_comming_soon">Feature is comming soon</string>
+    <string name="note">Notes</string>
+    <string name="remove">Remove</string>
+    <string name="total">Total</string>
+    <string name="done">DONE</string>
+
+    <!--TITLE SCREEN -->
+    <string name="login_screen">LOGIN</string>
+
+    <!--MESSAGE ALERT-->
+    <string name="no_internet">No internet connection</string>
+    <string name="wrong_email_format">Wrong email format</string>
+    <string name="please_wait">Please wait...</string>
+    <string name="error_internet_connection">The connection is interrupted.Please check your internet connection or try again later</string>
+    <string name="show_error_enter_date">Please enter date</string>
+    <string name="show_msg_screen_shot_successful">Screenshot successful</string>
+
+    <!-- LOGIN SCREEN -->
+    <string name="login">Login</string>
+</resources>

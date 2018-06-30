@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="loginviewmodel"
+            type="com.sample_mvvm.ui.login.LoginViewModel" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:hint="@string/email"
+            android:imeOptions="actionNext"
+            android:inputType="textEmailAddress"
+            android:paddingBottom="@dimen/padding_distance_5dp"
+            android:paddingLeft="@dimen/padding_distance_5dp"
+            android:paddingRight="@dimen/padding_distance_5dp"
+            android:paddingTop="@dimen/padding_distance_5dp"
+            android:text="@={loginviewmodel.email}"
+            android:textColor="@color/color_black01"
+            android:textColorHint="@color/color_gray13"
+            android:textSize="@dimen/text_size_16" />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="15dp"
+            android:hint="@string/password"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            android:paddingBottom="@dimen/padding_distance_5dp"
+            android:paddingLeft="@dimen/padding_distance_5dp"
+            android:paddingRight="@dimen/padding_distance_5dp"
+            android:paddingTop="@dimen/padding_distance_5dp"
+            android:text="@={loginviewmodel.password}"
+            android:textColor="@color/color_black01"
+            android:textColorHint="@color/color_gray13"
+            android:textSize="@dimen/text_size_16" />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimary"
+            android:text="@string/login"
+            android:textColor="@color/color_white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</layout>
+

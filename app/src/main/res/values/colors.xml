@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e7432b</color>
+    <color name="colorPrimaryDark">#e7432b</color>
+    <color name="colorAccent">#9b9b9b</color>
+
+    <color name="color_white">#ffffff</color>
+
+    <color name="color_black01">#000000</color>
+    <color name="color_black02">#1c1c1c</color>
+    <color name="color_black03">#1f1f1f</color>
+
+    <color name="color_blue01">#1f92ff</color>
+    <color name="color_blue02">#05A4FF</color>
+    <color name="color_blue03">#6b7ef0</color>
+    <color name="color_blue04">#f1fdff</color>
+    <color name="color_blue05">#3c579d</color>
+
+    <color name="color_green">#32C73C</color>
+    <color name="color_green_02">#00a150</color>
+    <color name="color_green_03">#009f4d</color>
+    <color name="color_green_04">#0cbb61</color>
+
+
+    <color name="color_red01">#c70909</color>
+    <color name="color_red02">#c01d1d</color>
+
+    <color name="color_orange01">#FD9809</color>
+
+    <color name="color_yellow01">#F9CE06</color>
+    <color name="color_yellow02">#ffd500</color>
+
+    <color name="color_gray01">#ececec</color>
+    <color name="color_gray02">#EBEBEB</color>
+    <color name="color_gray03">#C7C7C7</color>
+    <color name="color_gray04">#B1B1B1</color>
+    <color name="color_gray05">#F0F0F0</color>
+    <color name="color_gray06">#EEF3FA</color>
+    <color name="color_gray07">#fcfcfc</color>
+    <color name="color_gray08">#b5b5b5</color>
+    <color name="color_gray09">#D3D3D3</color>
+    <color name="color_gray10">#C3C3C3</color>
+    <color name="color_gray11">#28292C</color>
+    <color name="color_gray12">#4b4b4b</color>
+    <color name="color_gray13">#9b9b9b</color>
+    <color name="color_gray14">#bebebe</color>
+    <color name="color_gray15">#c9c9c9</color>
+    <color name="color_gray16">#d8d8d8</color>
+    <color name="color_gray17">#b0b0b0</color>
+    <color name="color_gray18">#f6f6f6</color>
+    <color name="color_gray19">#424242</color>
+
+    <!--Color for drawable -->
+    <color name="color_textbox_search">#fd687f</color>
+    <color name="color_textbox_login">#e7432b</color>
+    <color name="color_left_menu">#e12a1e</color>
+    <color name="color_button_search_home">#FD775A</color>
+
+    <!--Color Opacity-->
+    <color name="opacity_colorPrimary_01">#99e7432b</color>
+    <color name="opacity_colorPrimary_02">#59e7432b</color>
+    <color name="opacity_gray01">#80D3D3D3</color>
+    <color name="opacity_gray02">#80EBEBEB</color>
+    <color name="opacity_gray03">#66000000</color>
+    <color name="opacity_gray04">#E69b9b9b</color>
+
+</resources>
